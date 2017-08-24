@@ -1,7 +1,10 @@
 [package]
-name = "game_of_life"
+name = "game-of-life"
 version = "0.1.0"
-authors = ["René Perschon <rperschon85@gmail.com>"]
+authors = ["René Perschon <rene.perschon@payu.com>"]
 
 [dependencies]
+lib-game-of-life = { path = "lib-game-of-life" }
 termion = "1.1.4"
+
+[workspace]

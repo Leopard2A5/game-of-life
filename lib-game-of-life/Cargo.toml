@@ -1,0 +1,6 @@
+[package]
+name = "lib-game-of-life"
+version = "0.1.0"
+authors = ["René Perschon <rene.perschon@payu.com>"]
+
+[dependencies]
