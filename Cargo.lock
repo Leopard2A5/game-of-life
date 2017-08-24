@@ -1,7 +1,12 @@
 [root]
-name = "game_of_life"
+name = "lib-game-of-life"
+version = "0.1.0"
+
+[[package]]
+name = "game-of-life"
 version = "0.1.0"
 dependencies = [
+ "lib-game-of-life 0.1.0",
  "termion 1.1.4 (registry+https://github.com/rust-lang/crates.io-index)",
 ]
 
