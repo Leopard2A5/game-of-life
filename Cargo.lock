@@ -1,5 +1,5 @@
 [root]
-name = "game-of-life"
+name = "game_of_life"
 version = "0.1.0"
 dependencies = [
  "termion 1.1.4 (registry+https://github.com/rust-lang/crates.io-index)",
