@@ -27,7 +27,7 @@ fn print_gof(gof: &GameOfLife) {
 	for _ in 0..gof.width() + 2 {
 		print!("-");
 	}
-	println!("");
+	println!();
 
 	for y in 0..gof.height() {
 		print!("|");
@@ -40,7 +40,7 @@ fn print_gof(gof: &GameOfLife) {
 	for _ in 0..gof.width() + 2 {
 		print!("-");
 	}
-	println!("");
+	println!();
 }
 
 fn clear_screen() {
