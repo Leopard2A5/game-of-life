@@ -1,3 +1,14 @@
+#![recursion_limit = "1024"]
+
+#[macro_use]
+extern crate error_chain;
+
+mod errors {
+	error_chain!{}
+}
+
+use errors::*;
+
 #[derive(Debug, PartialEq, Copy, Clone)]
 pub enum Cell {
 	Live,
