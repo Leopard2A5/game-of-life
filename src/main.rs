@@ -1,9 +1,9 @@
-extern crate lib_game_of_life;
 extern crate termion;
 
 mod to_char;
+mod game_of_life;
 
-use lib_game_of_life::GameOfLife;
+use game_of_life::GameOfLife;
 use std::thread;
 use std::time;
 use to_char::ToChar;

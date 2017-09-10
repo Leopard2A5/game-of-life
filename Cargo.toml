@@ -4,7 +4,4 @@ version = "0.1.0"
 authors = ["René Perschon <rene.perschon@payu.com>"]
 
 [dependencies]
-lib-game-of-life = { path = "lib-game-of-life" }
 termion = "1.1.4"
-
-[workspace]

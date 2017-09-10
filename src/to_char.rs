@@ -1,4 +1,4 @@
-use lib_game_of_life::Cell;
+use game_of_life::Cell;
 
 pub trait ToChar {
 	fn to_char(&self) -> char;
